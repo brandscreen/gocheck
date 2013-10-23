@@ -2,10 +2,9 @@
 
 package gocheck_test
 
-
 import (
 	"errors"
-	. "launchpad.net/gocheck"
+	. "github.com/brandscreen/gocheck"
 	"sync"
 )
 
@@ -299,7 +298,7 @@ func (s *RunS) TestList(c *C) {
 }
 
 // -----------------------------------------------------------------------
-// Verify that verbose mode prints tests which pass as well. 
+// Verify that verbose mode prints tests which pass as well.
 
 func (s *RunS) TestVerboseMode(c *C) {
 	helper := FixtureHelper{}

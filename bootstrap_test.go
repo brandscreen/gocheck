@@ -1,7 +1,7 @@
 // These initial tests are for bootstrapping.  They verify that we can
 // basically use the testing infrastructure itself to check if the test
 // system is working.
-// 
+//
 // These tests use will break down the test runner badly in case of
 // errors because if they simply fail, we can't be sure the developer
 // will ever see anything (because failing means the failing system
@@ -14,7 +14,7 @@ package gocheck_test
 
 import (
 	"fmt"
-	"launchpad.net/gocheck"
+	"github.com/brandscreen/gocheck"
 	"strings"
 )
 

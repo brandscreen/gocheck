@@ -1,6 +1,6 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=launchpad.net/gocheck
+TARG=github.com/brandscreen/gocheck
 
 GOFILES=\
 	gocheck.go\

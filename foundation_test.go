@@ -8,7 +8,7 @@ package gocheck_test
 
 import (
 	"fmt"
-	"launchpad.net/gocheck"
+	"github.com/brandscreen/gocheck"
 	"log"
 	"os"
 	"regexp"
